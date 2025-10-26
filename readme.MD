@@ -77,3 +77,14 @@ Jalankan pada emulator atau perangkat fisik Android
 ### 4️⃣ Akses Awal
 
 Saat pertama kali dijalankan, masukkan PIN default: 1234 untuk membuka menu utama.
+
+<p align="center">
+  <img src="screenshoot/Screenshot_2025-10-27-00-30-17-013_com.example.mycashier.jpg" 
+  alt="Daftar Menu" width="20%" />
+  <img src="screenshoot/Screenshot_2025-10-27-00-30-53-824_com.example.mycashier.jpg" alt="Pencarian dengan Filter Menu" width="20%" />
+  <img src="screenshoot/Screenshot_2025-10-27-00-30-35-084_com.example.mycashier.jpg" alt="Pilih Metode Pembayaran" width="20%" />
+  <img src="screenshoot/Screenshot_2025-10-27-00-30-43-257_com.example.mycashier.jpg" alt="Pembayaran Cash" width="20%" />
+  <img src="screenshoot/Screenshot_2025-10-27-00-31-13-707_com.example.mycashier.jpg" alt="Lock Screen" width="20%" />
+  <img src="screenshoot/Screenshot_2025-10-27-00-31-19-969_com.example.mycashier.jpg" alt="Pin Gagal" width="20%" />
+
+</p>
