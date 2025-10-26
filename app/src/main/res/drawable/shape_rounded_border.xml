@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Warna solid (putih atau latar belakang activity) -->
+    <solid android:color="?attr/colorSurface" />
+
+    <!-- Sudut membulat -->
+    <corners android:radius="8dp" />
+
+    <!-- Garis tepi (border) -->
+    <stroke
+        android:width="1dp"
+        android:color="@android:color/darker_gray" />
+</shape>

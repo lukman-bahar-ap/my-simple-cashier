@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Cashier</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="price_format">Rp %,.0f</string>
+    <string name="title_makanan">Makanan</string>
+    <string name="title_minuman">Minuman</string>
+    <string name="title_lainya">Lainya</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Input Pembayaran Tunai"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textSize="12sp" />
+
+        <!-- Input Uang Dibayarkan -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_paid_amount_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:hint="Uang Dibayarkan (Rp)"
+           >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_paid_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textAlignment="textEnd" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Teks Kembalian -->
+        <TextView
+            android:id="@+id/text_change_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kembalian:"
+            android:textAlignment="textEnd"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_change_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Rp 0"
+            android:textAlignment="textEnd"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</layout>
